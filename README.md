@@ -1,15 +1,35 @@
 # QtMyBattery  
  > Виджет для отображения уровня заряда батареи на экране.
 
+    Уровень заряда от 81 до 100
+![alt tag](https://github.com/Daniil-Budnik/QtMyBattery/blob/main/Image/100.png?raw=true "100")
+
+    Уровень заряда от 61 до 80
+![alt tag](https://github.com/Daniil-Budnik/QtMyBattery/blob/main/Image/80.png?raw=true "80")
+
+    Уровень заряда от 41 до 60
+![alt tag](https://github.com/Daniil-Budnik/QtMyBattery/blob/main/Image/60.png?raw=true "60")
+
+    Уровень заряда от 21 до 40
+![alt tag](https://github.com/Daniil-Budnik/QtMyBattery/blob/main/Image/40.png?raw=true "40")
+
+    Уровень заряда от 0 до 20
+![alt tag](https://github.com/Daniil-Budnik/QtMyBattery/blob/main/Image/20.png?raw=true "20")
+
+
 # Описание
 
- > Установка уровня заряда (от 0 до 100)
+ > Установка уровня заряда (от 0 до 100) "является слотом"
    
     void setEnergy(unsigned short value) 
 
  > Вернуть значение уровня заряда
 
     unsigned short getEnergy()
+    
+ > Сигнал об любом изминении состояния уровня заряда
+
+    void batteryEnergy(unsigned short value);
 
 # Внедрение в свой проект
 
