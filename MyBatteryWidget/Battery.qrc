@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/Battery">
+        <file alias="20">Image/Battery_20.png</file>
+        <file alias="40">Image/Battery_40.png</file>
+        <file alias="60">Image/Battery_60.png</file>
+        <file alias="80">Image/Battery_80.png</file>
+        <file alias="100">Image/Battery_100.png</file>
+    </qresource>
+</RCC>
